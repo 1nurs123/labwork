@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
@@ -11,24 +10,24 @@
             android:title="Dashboard" />
         <item
             android:id="@+id/courses"
-            android:icon="@drawable/laptop"
+            android:icon="@drawable/baseline_menu_book_24"
             android:title="Courses" />
         <item
             android:id="@+id/contactme"
-            android:icon="@drawable/contactmail"
-            android:title="Contact Me" />
+            android:icon="@drawable/baseline_import_contacts_24"
+            android:title="Know More" />
     </group>
     <group android:checkableBehavior="single">
         <item android:title="Verificaton">
             <menu>
                 <item
                     android:id="@+id/login"
-                    android:icon="@drawable/login"
-                    android:title="Log-in" />
+                    android:icon="@drawable/baseline_login_24"
+                    android:title="Login" />
                 <item
                     android:id="@+id/logout"
-                    android:icon="@drawable/logout"
-                    android:title="Log-Out" />
+                    android:icon="@drawable/baseline_logout_24"
+                    android:title="LogOut" />
             </menu>
         </item>
     </group>
@@ -36,7 +35,7 @@
         <menu>
             <item
                 android:id="@+id/share"
-                android:icon="@drawable/share"
+                android:icon="@drawable/baseline_offline_share_24"
                 android:title="Share" />
             <item
                 android:id="@+id/refer"

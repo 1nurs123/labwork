@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="200dp"
@@ -10,13 +8,12 @@
         android:layout_width="100dp"
         android:layout_height="120dp"
         android:layout_gravity="center"
-        android:layout_margin="10dp"
-        android:src="@drawable/tdaulet"/>
+        android:src="@drawable/nurs"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tolegen Daulet Coding Classes"
-        android:textSize="20dp"
+        android:text="Alibek Nursultan Coding Classes"
+        android:textSize="25dp"
         android:textStyle="bold"
         android:layout_gravity="center"
         android:textColor="@color/white"/>
